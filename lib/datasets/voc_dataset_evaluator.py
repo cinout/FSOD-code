@@ -196,7 +196,7 @@ def _do_python_eval(json_dataset, salt, output_dir='output'):
         if cls == '__background__':
             continue
         filedir = './data/fsod/Results'
-        assert os.path.exists(filedir):
+        assert os.path.exists(filedir)
         filename = os.path.join(filedir, cls + '.txt')
         #filename = _get_voc_results_file_template(
         #    json_dataset, salt).format(cls)
