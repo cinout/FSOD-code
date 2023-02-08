@@ -12,8 +12,6 @@ from collections import defaultdict
 import numpy as np
 import yaml
 import torch
-
-print(">>> cuda version:",torch.version.cuda)
 from torch.autograd import Variable
 import torch.nn as nn
 import cv2
